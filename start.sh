@@ -7,6 +7,8 @@ __run() {
 __start() {
   #程序名
   RUN_NAME="$1"
+  cd /var/www
+  bin/logstash -f javaConf
   #jar 位置
   echo "$RUN_NAME started success."
 }
