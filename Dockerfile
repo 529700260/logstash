@@ -1,4 +1,4 @@
-FROM daocloud.io/java:7
+FROM daocloud.io/library/logstash
 
 ADD ./start.sh /start.sh
 RUN chmod 755 /start.sh
