@@ -1,4 +1,4 @@
-FROM daocloud.io/java:7
+FROM  index.docker.io/library/java
 
 ADD ./start.sh /start.sh
 RUN  chmod 755 /start.sh
